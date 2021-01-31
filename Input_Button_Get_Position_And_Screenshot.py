@@ -25,10 +25,10 @@ def Lower_right_corner():
 if __name__ == "__main__":
     Upper_left_corner()
     Lower_right_corner()
-    x=pos1.x
-    y=pos1.y
-    w=pos2.x-pos1.x
-    h=pos2.y-pos1.y
-    img=pyautogui.screenshot(region=(x,y,w,h))
+    x = pos1.x
+    y = pos1.y
+    w = pos2.x-pos1.x
+    h = pos2.y-pos1.y
+    img = pyautogui.screenshot(region=(x,y,w,h))
     img.save(r'.\img.png')
     pyautogui.alert('截圖已成功!')
