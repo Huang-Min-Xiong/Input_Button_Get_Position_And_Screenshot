@@ -7,7 +7,7 @@ def Upper_left_corner():
     while True:
         if keyboard.is_pressed('z'):
             global pos1
-            pos1=pyautogui.position()
+            pos1 = pyautogui.position()
             print(pos1)
             break
 
@@ -17,7 +17,7 @@ def Lower_right_corner():
     while True:
         if keyboard.is_pressed('x'):
             global pos2
-            pos2=pyautogui.position()
+            pos2 = pyautogui.position()
             print(pos2)
             break
 
